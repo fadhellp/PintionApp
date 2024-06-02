@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/ungu"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:text="Profile"
+        android:fontFamily="@font/mmedium"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_profile2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center|top"
+        android:fitsSystemWindows="true"
+        android:background="@color/white"
+        android:src="@drawable/profile"/>
+
+    <TextView
+        android:id="@+id/tv_nama2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="375dp"
+        android:text="User"
+        android:fontFamily="@font/mblack"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_gravity="center|top"
+        android:textColor="#1C1678"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogout"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="@color/Red"
+        android:text="Logout"
+        android:fontFamily="@font/mbold"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
+
+
